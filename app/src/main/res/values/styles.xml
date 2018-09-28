@@ -1,0 +1,108 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Material.Light.NoActionBar.Fullscreen">
+        <!-- Customize your theme here. -->
+
+
+    </style>
+
+    <style name="AppTheme2" parent="android:Theme.Material.Light.NoActionBar.Fullscreen">
+        <!-- Customize your theme here. -->
+
+
+    </style>
+    <style name="fullscreen1" parent="android:Theme.Material.Light.NoActionBar.Fullscreen">
+    </style>
+
+    <!--<style name="AppTheme1" parent="Base.Widget.Design.AppBarLayout">-->
+
+    <!--</style>-->
+
+    <!--<style name="AppTheme2" parent="Base.Widget.AppCompat.Light.PopupMenu">-->
+
+    <!--</style>-->
+
+    <style name="styleabletoast_1">
+        <item name="textBold">true</item>
+        <item name="textColor">#000</item>
+        <item name="textSize">14sp</item>
+        <item name="colorBackground">#fff</item>
+        <item name="solidBackground">true</item>
+        <item name="strokeWidth">3dp</item>
+        <item name="strokeColor">@android:color/holo_red_dark</item>
+        <item name="iconStart">@android:drawable/star_on</item>
+        <item name="iconEnd">@android:drawable/star_on</item>
+        <item name="length">LONG</item>
+        <item name="gravity">top</item>
+
+        <!--for custom font
+        <item name="font">@font/retrofont</item>-->
+
+    </style>
+
+    <style name="styleabletoast_2">
+        <item name="textBold">true</item>
+        <item name="textColor">#000</item>
+        <item name="textSize">14sp</item>
+        <item name="colorBackground">#fff</item>
+        <item name="solidBackground">true</item>
+        <item name="strokeWidth">3dp</item>
+        <item name="strokeColor">@android:color/holo_red_dark</item>
+        <item name="iconStart">@android:drawable/star_on</item>
+        <item name="iconEnd">@android:drawable/star_on</item>
+        <item name="length">SHORT</item>
+        <item name="gravity">center</item>
+        <item name="radius">5dp</item>
+
+    </style>
+
+    <style name="error">
+        <item name="textBold">true</item>
+        <item name="textColor">#000</item>
+        <item name="textSize">20sp</item>
+        <item name="colorBackground">#ff5252</item>
+        <item name="solidBackground">true</item>
+        <item name="strokeWidth">3dp</item>
+        <item name="android:elevation">8dp</item>
+        <item name="iconEnd">@drawable/ic_warning_black_24dp</item>
+        <item name="length">LONG</item>
+        <!--LONG or SHORT-->
+        <item name="gravity">top</item>
+        <!--top or center-->
+        <item name="radius">5dp</item>
+    </style>
+
+    <style name="successful">
+        <item name="textBold">true</item>
+        <item name="textColor">#000</item>
+        <item name="textSize">20sp</item>
+        <item name="colorBackground">#3eff3e</item>
+        <item name="solidBackground">true</item>
+        <item name="strokeWidth">3dp</item>
+        <item name="android:elevation">8dp</item>
+        <item name="iconEnd">@drawable/ic_done_all_black_24dp</item>
+        <item name="length">LONG</item>
+        <!--LONG or SHORT-->
+        <item name="gravity">top</item>
+        <!--top or center-->
+        <item name="radius">5dp</item>
+    </style>
+
+    <style name="notification">
+        <item name="textBold">true</item>
+        <item name="textColor">#000</item>
+        <item name="textSize">20sp</item>
+        <item name="colorBackground">#00e5ff</item>
+        <item name="solidBackground">true</item>
+        <item name="strokeWidth">3dp</item>
+        <item name="android:elevation">8dp</item>
+        <item name="iconEnd">@drawable/ic_info_black_24dp</item>
+        <item name="length">LONG</item>
+        <!--LONG or SHORT-->
+        <item name="gravity">top</item>
+        <!--top or center-->
+        <item name="radius">5dp</item>
+    </style>
+
+</resources>
